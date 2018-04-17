@@ -7,13 +7,11 @@
   "license": "MIT",
   "private": true,
   "devDependencies": {
-    "oao": "^1.5.1"
+    "lerna": "^2.10.2"
   },
-  "workspaces": [
-    "packages/*"
-  ],
+  "workspaces": ["packages/*"],
   "scripts": {
-    "preinstall": "oao clean || npx oao clean",
-    "start": "oao all 'yarn start'"
+    "preinstall": "lerna clean --yes || npx lerna clean --yes",
+    "start": "lerna run start"
   }
 }
