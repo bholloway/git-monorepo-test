@@ -1,0 +1,17 @@
+{
+  "name": "@bholloway/foo",
+  "version": "0.0.1",
+  "description": "foo",
+  "main": "index.js",
+  "author": "bholloway",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "@bholloway/bar": "0.0.1",
+    "@bholloway/baz": "0.0.1",
+    "outdent": "^0.5.0"
+  },
+  "scripts": {
+    "start": "node ."
+  }
+}

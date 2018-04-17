@@ -1,0 +1,21 @@
+{
+  "name": "monorepo-test",
+  "version": "0.0.1",
+  "description": "Test monorepo with publish to github rather than npm",
+  "main": "index.js",
+  "author": "bholloway",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "oao": "^1.5.1"
+  },
+  "workspaces": [
+    "packages/foo",
+    "packages/bar",
+    "packages/baz"
+  ],
+  "scripts": {
+    "preinstall": "oao clean || npx oao clean",
+    "start": "oao all 'yarn start'"
+  }
+}

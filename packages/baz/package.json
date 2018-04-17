@@ -1,0 +1,14 @@
+{
+  "name": "@bholloway/baz",
+  "version": "0.0.1",
+  "description": "baz",
+  "main": "index.js",
+  "author": "bholloway",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+  },
+  "scripts": {
+    "start": "echo 'no start script'"
+  }
+}
