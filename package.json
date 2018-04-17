@@ -10,9 +10,7 @@
     "oao": "^1.5.1"
   },
   "workspaces": [
-    "packages/foo",
-    "packages/bar",
-    "packages/baz"
+    "packages/*"
   ],
   "scripts": {
     "preinstall": "oao clean || npx oao clean",
